@@ -1,0 +1,32 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.wordWrap": "on",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.defaultFormatter": "vscode.configuration-editing",
+  "editor.fontSize": 15,
+  "html.format.wrapLineLength": 400,
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "emmet.triggerExpansionOnTab": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "php.validate.executablePath": "",
+  "files.autoGuessEncoding": true,
+  "[scss]": {
+      "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "files.eol": "\r\n",
+  "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss"
+  ],
+  "vscode-w3cvalidation.javaHome": "\"vscode-w3cvalidation.javaHome\": \"C:\\\\Program Files\\\\Java\\\\jdk-17.0.2\"",
+  "liveSassCompile.settings.generateMap": false,
+  "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
+}
