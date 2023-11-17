@@ -1,0 +1,125 @@
+{
+	"section": {
+		"prefix": "sec",
+		"body": [
+		"<section class=\"$0\">",
+		"</section>",
+		"<!-- / -->",
+		]
+	},
+	"div": {
+		"prefix": "d",
+		"body": [
+		"<div>$0",
+		"</div>",
+		]
+	},
+	"div-class": {
+		"prefix": "dc",
+		"body": [
+		"<div class=\"$0\">",
+		"</div>",
+		]
+	},
+	"p-class": {
+		"prefix": "pc",
+		"body": [
+		"<p class=\"$0\">",
+		"</p>",
+		]
+	},
+	"ul-class": {
+		"prefix": "uc",
+		"body": [
+		"<ul class=\"$0\">",
+		"</ul>",
+		]
+	},
+	"li-class": {
+		"prefix": "lc",
+		"body": [
+		"<li class=\"$0\">",
+		"</li>",
+		]
+	},
+  "inner": {
+	"prefix": "i",
+	"body": [
+	  "<div class=\"inner\">",
+	  "$1",
+	  "</div>",
+	]
+  },
+  "comment-close": {
+	"prefix": "/",
+	"body": [
+	  "<!--/$1-->",
+	]
+  },
+  "script": {
+	"prefix": "s",
+	"body": [
+	  "<script src=\"$0\"></script>",
+	]
+  },
+  "script": {
+	"prefix": "bre",
+	"body": [
+	  "breadcrumb",
+	]
+  },
+  "include": {
+	"prefix": "inc",
+	"body": [
+	  "<!--#include virtual=\"/common/include/$1.html\"-->",
+	]
+  },
+  "_blank": {
+	"prefix": "ta",
+	"body": [
+	  "target=\"_blank\"",
+	]
+  },
+  "span": {
+	"prefix": "s",
+	"body": [
+	  "span",
+	]
+  },
+  "ptt": {
+	"prefix": "ptt",
+	"body": [
+	  "<p class=\"ttl\">",
+	  "    $0",
+	  "</p>",
+	]
+  },
+  "pt": {
+	"prefix": "pt",
+	"body": [
+	  "<p class=\"txt\">",
+	  "    $0",
+	  "</p>",
+	]
+  },
+  "ul-list": {
+	"prefix": "ull",
+	"body": [
+	  "<ul class=\"$0_list\">",
+	  "</ul>",
+	]
+  },
+  "li-item": {
+	"prefix": "lii",
+	"body": [
+	  "<li class=\"$0_item\">",
+	  "</li>",
+	]
+  },
+  "Insert-Number": {
+	"prefix": "in",
+	"body": [
+	  "%d:1:1",
+	]
+  },
+}
