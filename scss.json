@@ -1,0 +1,286 @@
+{
+	// "media query": {
+	// 	"prefix": "mq",
+	// 	  "body": [
+	// 		"@media screen and (max-width: 768px){$0",
+	// 		"}"
+	// 	  ]
+	//   },
+	// "media query": {
+	// 	"prefix": "mk",
+	// 	  "body": [
+	// 		"@media screen and (max-width: 768px){$0",
+	// 		"}"
+	// 	  ]
+	// },
+	//   "include-break": {
+	// 	"prefix": "mk",
+	// 	  "body": [
+	// 		"@include break() {$0",
+	// 		"}",
+	// 	  ]
+	//   },
+	"include-break": {
+		"prefix": "mk",
+		  "body": [
+			"@include setting.break{$0",
+			"}",
+		  ]
+	  },
+	//   "include-break": {
+	// 	"prefix": "mk2",
+	// 	  "body": [
+	// 		"@include break2{$0",
+	// 		"}",
+	// 	  ]
+	//   },
+	  "bg-short": {
+		"prefix": "bg",
+		"body": [
+		  "background: url($0) no-repeat center center/cover;",
+		]
+	  },
+	  "pseudo-element": {
+		"prefix": "cn",
+		"body": [
+		  "content: \"\";",
+		  "display: block;",
+		]
+	  },
+	  "posa-center": {
+		"prefix": "pos",
+		"body": [
+		"position: absolute;",
+		"top: 50%;",
+		"left: 50%;",
+		"transform: translate(-50%,-50%);"
+		]
+	  },
+	  "left-50%": {
+		"prefix": "l50",
+		"body": [
+		"left: 50%;",
+		"transform: translateX(-50%);",
+		]
+	  },
+	  "top-50%": {
+		"prefix": "t50",
+		"body": [
+		"top: 50%;",
+		"transform: translateY(-50%);",
+		]
+	  },
+	  "border": {
+		"prefix": "bd",
+		"body": [
+		  "border: $1px solid #$0;",
+		]
+	  },
+	  "transition": {
+		"prefix": "tr",
+		"body": [
+		  "transition: all .3s;",
+		]
+	  },
+	  "color": {
+		"prefix": "cr",
+		"body": [
+		  "color: #$0;",
+		]
+	  },
+	  "margin-auto": {
+		"prefix": "m0a",
+		"body": [
+		  "margin: 0 auto;",
+		]
+	  },
+	  ":last-child)": {
+		"prefix": "lc",
+		"body": [
+		  "&:last-child{$0",
+		  "}"
+		]
+	  },
+	  "not:(:last-child)": {
+		"prefix": "nl",
+		"body": [
+		  "&:not(:last-child){$0",
+		  "}"
+		]
+	  },
+	  ":last-of-type": {
+		"prefix": "lt",
+		"body": [
+		  "&:last-of-type{$0",
+		  "}"
+		]
+	  },
+	  "not:(:last-of-type)": {
+		"prefix": "nlt",
+		"body": [
+		  "&:not(:last-of-type){$0",
+		  "}"
+		]
+	  },
+	  "after": {
+		"prefix": "af",
+		"body": [
+		  "&:after{",
+		  "$1",
+		  "}"
+		]
+	  },
+	  "before": {
+		"prefix": "be",
+		"body": [
+			"&:before{",
+			"$1",
+			"}"
+		]
+	  },
+	  "margon-short": {
+		"prefix": "ms",
+		"body": [
+			"margin: $0 $1 $2 $3;"
+		]
+	  },
+	  "padding-short": {
+		"prefix": "ps",
+		"body": [
+			"padding: $0 $1 $2 $3;"
+		]
+	  },
+	  "opacity-0.8": {
+		"prefix": "op8",
+		"body": [
+			"opacity: .8;"
+		]
+	  },
+	  "&:hover": {
+		"prefix": "hv",
+		"body": [
+			"&:hover{$0",
+			"}"
+		]
+	  },
+	  "flex-wrap-wrap": {
+		"prefix": "fww",
+		"body": [
+			"flex-wrap: wrap;$00"
+		]
+	  },
+	  "justify-content-center": {
+		"prefix": "js",
+		"body": [
+			"justify-content: center;$00"
+		]
+	  },
+	  "justify-content-space-between": {
+		"prefix": "jb",
+		"body": [
+			"justify-content: space-between;$0"
+		]
+	  },
+	  "font-weight-400": {
+		"prefix": "fw4",
+		"body": [
+			"font-weight: 400;$0"
+		]
+	  },
+	  "font-weight-500": {
+		"prefix": "fw5",
+		"body": [
+			"font-weight: 500;$0"
+		]
+	  },
+	  "font-weight-700": {
+		"prefix": "fw7",
+		"body": [
+			"font-weight: 700;$0"
+		]
+	  },
+	  "color-white": {
+		"prefix": "cw",
+		"body": [
+			"color: #ffffff;"
+		]
+	  },
+	  "color-black": {
+		"prefix": "cb",
+		"body": [
+			"color: #000000;"
+		]
+	  },
+	  "border-radius": {
+		"prefix": "br",
+		"body": [
+			"border-radius: $0px;"
+		]
+	  },
+	  "!important": {
+		"prefix": "!",
+		"body": [
+			"!important"
+		]
+	  },
+	  "background-color: black;": {
+		"prefix": "bcb",
+		"body": [
+			"background-color: #000000;"
+		]
+	  },
+	  "background-color: white;": {
+		"prefix": "bcw",
+		"body": [
+			"background-color: #FFFFFF;"
+		]
+	  },
+	  "/*  */": {
+		"prefix": "cm",
+		"body": [
+			"/* $0 */"
+		]
+	  },
+	  "white": {
+		"prefix": "w",
+		"body": [
+			"#FFFFFF"
+		]
+	  },
+	  "writing-mode: vertical-rl": {
+		"prefix": "wmvr",
+		"body": [
+			"writing-mode: vertical-rl;"
+		]
+	  },
+	  "flex-direction: column;": {
+		"prefix": "fdc",
+		"body": [
+			"flex-direction: column;"
+		]
+	  },
+	  "cm2": {
+		"prefix": "cm2",
+		"body": [
+			"/* -----------------------",
+			"$0",
+			"----------------------- */"
+		]
+	  },
+	  "fi": {
+		"prefix": "fi",
+		"body": [
+			"&:first-child{",
+			"",
+			"}"
+		]
+	  },
+	  "span": {
+		"prefix": "s",
+		"body": [
+			"span{",
+			"    $0",
+			"}"
+		]
+	  },
+}
