@@ -1,6 +1,6 @@
 {
 	"section": {
-		"prefix": "sec",
+		"prefix": "secc",
 		"body": [
 		"<section class=\"$0\">",
 		"</section>",
